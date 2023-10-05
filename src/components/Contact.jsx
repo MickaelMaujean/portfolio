@@ -12,7 +12,7 @@ const Contact = () => {
 				Feel free to reach out if you have any questions !
 			</h2>
 			<form
-				action="https://getform.io/f/8bd558ee-e1b0-4f07-9abc-f71b6a747eff"
+				action="getForm"
 				method="POST"
 				className="mx-auto mt-16 max-w-xl sm:mt-20"
 			>
