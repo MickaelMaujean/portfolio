@@ -20,7 +20,8 @@ const data = [
 		year: 2018,
 		title: "Mont-blanc climbing",
 		duration: "2 Days",
-		details: "Mont-Blanc climbing up from les Houches via Le Gouter shelter",
+		details:
+			"Mont-Blanc climbing up from les Houches with a stop in Le Gouter shelter",
 	},
 	{
 		year: 2018,
