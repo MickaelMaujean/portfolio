@@ -6,6 +6,7 @@ import Picture from "./components/Picture";
 import Strava from "./components/Strava";
 import Contact from "./components/Contact";
 import Chess from "./components/Chess";
+import ChatBot from "./components/ChatBot";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Strava />
 			<Chess />
 			<Contact />
+			<ChatBot />
 		</div>
 	);
 }

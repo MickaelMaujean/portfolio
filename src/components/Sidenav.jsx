@@ -9,6 +9,7 @@ import { GrAchievement } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
 import { MdOutlineQueryStats } from "react-icons/md";
 import { LiaChessBoardSolid } from "react-icons/lia";
+import { FaRobot } from "react-icons/fa6";
 
 const Sidenav = () => {
 	const [nav, setNav] = useState(false);
