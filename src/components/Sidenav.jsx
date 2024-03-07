@@ -8,6 +8,7 @@ import {
 import { GrAchievement } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
 import { MdOutlineQueryStats } from "react-icons/md";
+import { LiaChessBoardSolid } from "react-icons/lia";
 
 const Sidenav = () => {
 	const [nav, setNav] = useState(false);
@@ -57,6 +58,14 @@ const Sidenav = () => {
 					</a>
 					<a
 						onClick={handleNav}
+						href="#chess"
+						className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+					>
+						<LiaChessBoardSolid size={20} />
+						<span className="pl-4">Chess</span>
+					</a>
+					<a
+						onClick={handleNav}
 						href="#contact"
 						className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
 					>
@@ -92,6 +101,12 @@ const Sidenav = () => {
 						className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
 					>
 						<MdOutlineQueryStats />
+					</a>
+					<a
+						href="#chess"
+						className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+					>
+						<LiaChessBoardSolid />
 					</a>
 					<a
 						href="#contact"

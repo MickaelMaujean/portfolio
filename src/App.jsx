@@ -5,6 +5,7 @@ import Work from "./components/Work";
 import Picture from "./components/Picture";
 import Strava from "./components/Strava";
 import Contact from "./components/Contact";
+import Chess from "./components/Chess";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Work />
 			<Picture />
 			<Strava />
+			<Chess />
 			<Contact />
 		</div>
 	);

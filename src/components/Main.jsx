@@ -7,6 +7,7 @@ import {
 	FaStrava,
 	FaMountain,
 	FaRunning,
+	FaChess,
 } from "react-icons/fa";
 
 const Main = () => {
@@ -27,7 +28,7 @@ const Main = () => {
 					<h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 bg-none">
 						<TypeAnimation
 							sequence={[
-								"I am a Digital Product Owner",
+								"I am a Digital Product Manager",
 								2000,
 								"a Web developer passionate",
 								2000,
@@ -59,6 +60,9 @@ const Main = () => {
 						</a>
 						<a href="https://www.strava.com/athletes/80146516">
 							<FaStrava className="cursor-pointer" size={20} />
+						</a>
+						<a href="https://www.chess.com/member/micka57255">
+							<FaChess className="cursor-pointer" size={20} />
 						</a>
 					</div>
 				</div>
