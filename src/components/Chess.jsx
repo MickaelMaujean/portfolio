@@ -8,7 +8,10 @@ function Chess() {
 				Chess.com stats
 			</h1>
 			<h2 className="text-4sm text-center text-gray-400 pb-3">Coming soon</h2>
-			<img className="justify-center" src={"/chess.com.jpeg"} />
+			<img
+				className="flex w-full items-center justify-center shadow-xl shadow-gray-400 rounded-xl"
+				src={"/chess2.jpg"}
+			/>
 		</div>
 	);
 }
