@@ -34,7 +34,7 @@ const Main = () => {
 								2000,
 								"But more importantly:",
 								2000,
-								"A Mountains and trail running lover !",
+								"A Mountains, trail running & chess lover !",
 								3000,
 							]}
 							wrapper="h2"
